@@ -1,0 +1,2 @@
+axif_tf:dobot:opencvtest:ros_test:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/student/myros/devel -DCMAKE_INSTALL_PREFIX=/home/student/myros/install -G Unix Makefiles

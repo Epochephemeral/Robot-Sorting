@@ -1,0 +1,8 @@
+prefix=/home/student/myros/build/devel
+
+Name: ros_test
+Description: Description of ros_test
+Version: 0.0.0
+Cflags: -I/home/student/myros/build/devel/include -I/home/student/myros/src/ros_test/include
+Libs: -L${prefix}/lib -lros_test
+Requires: roscpp rospy std_msgs message_runtime
